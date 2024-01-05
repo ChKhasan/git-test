@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{$store.state.translations['file1.0']}}</h1>
+    <h1 class="class qul">{{$store.state.translations['file1.0']}}</h1>
     <p>{{$store.state.translations['file1.1']}}</p>
     <ul>
       <li>{{ $store.state.translations["file1.2"] }}</li>
