@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "desc",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "translate": "node node_modules/my-module/toTranslate.js",
+    "cTranslate": "node toCreateTranslate.js"
+  },
+  "author": "Khasan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "vue-router": "^4.2.5"
+  }
+}
